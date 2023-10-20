@@ -18,7 +18,9 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className='dark'>
+    <html lang="en" className='dark' style={{ colorScheme: "dark" }} 
+    //suppressHydrationWarning={true}
+    >
       <body className={inter.className}>
         <Providers>
           <header className='py-6'>
