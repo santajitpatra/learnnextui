@@ -31,16 +31,8 @@ export default function RootLayout({
             <Navbar />
           </header>
           <main>{children}</main>
-          <footer>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-              tempora, quas assumenda ipsa eveniet dolor ducimus aperiam minima
-              porro eius fuga, nemo iure ea? Ut nam velit obcaecati deserunt
-              molestiae. Lorem, ipsum dolor sit amet consectetur adipisicing
-              elit. Mollitia ut illo, sunt rerum ad voluptatibus totam quos
-              repudiandae impedit excepturi pariatur quibusdam dolore, eveniet
-              quidem corporis enim doloribus accusantium laborum.
-            </p>
+          <footer className="items-center flex ">
+           <h3 className="text-5xl m-auto mt-10">Footer</h3>
           </footer>
         </Providers>
       </body>
